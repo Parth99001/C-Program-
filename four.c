@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+     int a,b,c,d,e;
+    printf(" Enter value 1:");
+    scanf("%d" ,&a);
+     printf(" Enter value 2:");
+    scanf("%d" ,&b);
+     printf(" Enter value 3:");
+    scanf("%d" ,&c);
+     printf(" Enter value 4:");
+    scanf("%d" ,&d);
+    printf(" enter value 5:");
+    scanf("%d" ,&e);
+    int ans =a*b+c/d-e;
+    printf("%d",ans);
+    return 0;
+}
